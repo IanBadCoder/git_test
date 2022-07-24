@@ -1,0 +1,1 @@
+"Hello world, I can confidently state that this whole Git / Github thing is kinda weird"
