@@ -1,0 +1,148 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 50px;
+}
+
+.header .container img {
+    width: 400px;
+    height: auto;
+}
+
+.boxes .container .courses img {
+    width: 200px;
+    height: 200px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar .container .nav {
+    display: flex;
+}
+
+.navbar .container .nav li{
+    margin-right: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #FFFFFF;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.container {
+    padding: 0, 30px;
+}
+
+.boxes .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes .container h2 {
+    align-self: center;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.courses img {
+    border: 5px solid #3882F6;
+    border-radius: 10%;
+}
+
+.courses p {
+    font-size: 12px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    justify-content : center;
+    height: 100px;
+    font-size: 36px;
+    color: #1F2937;
+    flex-basis: 300px;
+}
+
+.quote blockquote {
+    font-style: italic;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    margin: 75px 400px;
+    background-color: #3882F6;
+    border: 10px solid #3882F6;
+    border-radius: 15px;
+    color: white;
+    line-height: 25%;
+}
+
+button {
+    max-height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1F2937;
+    color: #F9F8F8;
+}
+
+.header .container h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 0.3;
+}
+
+.header .container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.boxes .container .courses {
+    padding-bottom: 50px;
+}
